@@ -1,0 +1,57 @@
+body {
+    height: 40rem;
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.contact {
+    width: 400px;
+}
+
+.btn {
+    margin-top: 20px;
+    border: none;
+    text-align: center;
+    background-color: rgba(10, 24, 221, 0.836);
+    border-radius: 20px;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+input {
+    width: 300px;
+}
+
+h3 {
+    color: red;
+}
+
+.product,
+.home {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid rgba(71, 69, 69, 0.904);
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.product {
+    display: flex;
+}
